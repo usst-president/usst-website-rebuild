@@ -2,34 +2,45 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Heart, Mail, Building2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
+import calianLogo from '@/assets/Calian Logo.png';
+import kgsLogo from '@/assets/KGS Logo.png';
+import mdaLogo from '@/assets/MDA Logo.png';
+import meaLogo from '@/assets/MEA Logo.png';
+import makerspaceLogo from '@/assets/Makerspace Logo.png';
+import usaskEngLogo from '@/assets/Usask Eng Logo.png';
+import vecimaLogo from '@/assets/Vecima Logo.png';
+
 
 const sponsorTiers = [
   {
     name: 'Apogee Ally',
     description: 'Major partnership with extensive visibility and collaboration opportunities',
     sponsors: [
-      { name: 'Coming Soon', logo: null },
+      { name: 'Calian Advanced Technologies', logo: calianLogo },
+      { name: 'University of Saskatchewan College of Engineering', logo: usaskEngLogo}
     ],
   },
   {
     name: 'Supersonic Supporter',
     description: 'Significant support enabling key project milestones',
     sponsors: [
-      { name: 'Coming Soon', logo: null },
+      { name: 'Maguire Engineering Associates', logo: meaLogo },
+      { name: 'Vecima Networks', logo: vecimaLogo}
     ],
   },
   {
     name: 'Lift-off',
     description: 'Valuable contributions supporting student development',
     sponsors: [
-      { name: 'Coming Soon', logo: null },
+      { name: 'KGS Group', logo: kgsLogo },
     ],
   },
   {
     name: 'Ignition',
     description: 'Valuable contributions supporting student development',
     sponsors: [
-      { name: 'Coming Soon', logo: null },
+      { name: 'MakerSpace Saskatoon', logo: makerspaceLogo },
+      { name: 'MDA Space', logo: mdaLogo}
     ],
   },
 ];
