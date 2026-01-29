@@ -5,21 +5,28 @@ import Layout from '@/components/Layout';
 
 const sponsorTiers = [
   {
-    name: 'Platinum',
+    name: 'Apogee Ally',
     description: 'Major partnership with extensive visibility and collaboration opportunities',
     sponsors: [
       { name: 'Coming Soon', logo: null },
     ],
   },
   {
-    name: 'Gold',
+    name: 'Supersonic Supporter',
     description: 'Significant support enabling key project milestones',
     sponsors: [
       { name: 'Coming Soon', logo: null },
     ],
   },
   {
-    name: 'Silver',
+    name: 'Lift-off',
+    description: 'Valuable contributions supporting student development',
+    sponsors: [
+      { name: 'Coming Soon', logo: null },
+    ],
+  },
+  {
+    name: 'Ignition',
     description: 'Valuable contributions supporting student development',
     sponsors: [
       { name: 'Coming Soon', logo: null },

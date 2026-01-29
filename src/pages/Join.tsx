@@ -21,12 +21,12 @@ const steps = [
   {
     number: '02',
     title: 'Attend a Meeting',
-    description: 'Come to one of our general meetings to learn about current projects and meet the team.',
+    description: 'Come to one of our meetings to learn about current projects and meet the team.',
   },
   {
     number: '03',
     title: 'Choose a Subteam',
-    description: 'Pick the area that interests you most — structures, avionics, propulsion, recovery, or operations.',
+    description: 'Pick the area that interests you most - aerostructure, avionics, propulsion, recovery, or operations.',
   },
   {
     number: '04',
@@ -38,11 +38,11 @@ const steps = [
 const faqs = [
   {
     question: 'Do I need engineering experience?',
-    answer: 'Not at all! We welcome students from all faculties and backgrounds. Whether you are in arts, science, business, or engineering, there is a place for you. We teach all necessary skills.',
+    answer: 'Not at all! We welcome students from all faculties and backgrounds. Whether you are in arts and science, business, or engineering, there is a place for you. We teach all necessary skills.',
   },
   {
     question: 'What is the time commitment?',
-    answer: 'Most members spend 3-5 hours per week on team activities. This can flex based on your schedule and project phases. We understand school comes first.',
+    answer: 'Most members spend 2-5 hours per week on team activities. This can flex based on your schedule and project phases. We understand school comes first.',
   },
   {
     question: 'What will I actually do?',
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'Is there a cost to join?',
-    answer: 'Basic membership is free. Some optional activities (like competition travel) may have costs, but we work to minimize barriers and offer support when possible.',
+    answer: 'Basic membership is free. Some optional activities (like competition travel, or team merchandiise) may have costs, but we work to minimize barriers and offer support when possible.',
   },
 ];
 
@@ -64,7 +64,7 @@ const benefits = [
   'Network with industry sponsors',
   'Leadership opportunities',
   'Competition travel experiences',
-  'Lifelong friendships',
+  'It is literally space!',
 ];
 
 const Join = () => {
@@ -92,7 +92,7 @@ const Join = () => {
                 className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 group"
                 asChild
               >
-                <a href="https://discord.gg/usst" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.gg/QfEBHeGG9R" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2 w-5 h-5" />
                   Join Discord
                 </a>
@@ -123,7 +123,7 @@ const Join = () => {
               </div>
               <h3 className="font-display text-lg font-semibold mb-2">All Majors Welcome</h3>
               <p className="text-muted-foreground text-sm">
-                Engineering, science, arts, business — we need diverse perspectives to succeed.
+                Engineering, science, arts, business - we need diverse perspectives to succeed.
               </p>
             </div>
             <div className="text-center">
@@ -203,7 +203,7 @@ const Join = () => {
               <div className="space-y-4">
                 <div className="bg-card rounded-xl p-4">
                   <h4 className="font-medium mb-1">Month 1</h4>
-                  <p className="text-muted-foreground text-sm">Orientation, safety training, meet your subteam</p>
+                  <p className="text-muted-foreground text-sm">Orientation, onboarding, training, meet your subteam</p>
                 </div>
                 <div className="bg-card rounded-xl p-4">
                   <h4 className="font-medium mb-1">Month 2</h4>
@@ -211,7 +211,7 @@ const Join = () => {
                 </div>
                 <div className="bg-card rounded-xl p-4">
                   <h4 className="font-medium mb-1">Month 3</h4>
-                  <p className="text-muted-foreground text-sm">Take ownership of smaller tasks, contribute to design</p>
+                  <p className="text-muted-foreground text-sm">Take ownership of smaller tasks, contribute to design and documentation</p>
                 </div>
                 <div className="bg-card rounded-xl p-4">
                   <h4 className="font-medium mb-1">Month 4</h4>
@@ -260,7 +260,7 @@ const Join = () => {
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 group"
               asChild
             >
-              <a href="https://discord.gg/usst" target="_blank" rel="noopener noreferrer">
+              <a href="https://discord.gg/QfEBHeGG9R" target="_blank" rel="noopener noreferrer">
                 Join Discord
                 <ExternalLink className="ml-2 w-4 h-4" />
               </a>

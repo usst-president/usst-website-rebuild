@@ -17,8 +17,8 @@ const typewriterWords = [
 ];
 
 const stats = [
-  { number: '10+', label: 'Years of Innovation' },
-  { number: '100+', label: 'Student Members' },
+  { number: '21+', label: 'Years of Innovation' },
+  { number: '50+', label: 'Student Members' },
   { number: '3', label: 'Rockets Built' },
   { number: '2', label: 'CubeSats Designed' },
 ];
@@ -32,12 +32,12 @@ const highlights = [
   {
     icon: Rocket,
     title: 'Rocket Development',
-    description: 'Building our third rocket with advanced propulsion and avionics, competing at national-level competitions.',
+    description: 'Upgrading our third rocket with advanced avionics and groundbreaking aerostructure, competing at national-level competitions.',
   },
   {
     icon: Sparkles,
     title: 'Research & Innovation',
-    description: 'From space elevators to reduced gravity experiments, we push boundaries in aerospace engineering.',
+    description: 'From space elevators, rovers, to reduced gravity experiments, we push the boundaries of exploration in Saskatchewan.',
   },
 ];
 
@@ -70,7 +70,7 @@ const Index = () => {
             
             {/* Subtitle */}
             <p className="text-lg sm:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-              A student-led team building CubeSats, rockets, and the next generation of aerospace engineers. 
+              A student-led team building CUBICS satelites, rockets, and the next generation of engineers. 
               <span className="text-primary font-semibold"> No experience required.</span>
             </p>
             
@@ -149,7 +149,7 @@ const Index = () => {
                 </div>
                 <h3 className="font-display text-2xl font-bold mb-2">Rocket III</h3>
                 <p className="text-muted-foreground text-sm">
-                  Our third high-powered rocket with custom avionics and recovery systems.
+                  Our third high-powered rocket with custom flight computers and SRAD aerostructure.
                 </p>
               </div>
             </div>
@@ -230,7 +230,7 @@ const Index = () => {
             </h2>
             <p className="text-primary-foreground/90 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
               We welcome students from every major, with any level of experience. 
-              If you're curious about space and want to build something real, we'll teach you everything you need to know.
+              If you're curious about space or want to build something real, we'll teach you everything you need to know.
             </p>
             
             <Link to="/join">
