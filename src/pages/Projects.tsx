@@ -182,19 +182,19 @@ const Projects = () => {
               >
                 {/* Timeline connector */}
                 {index < projects.length - 1 && (
-                  <div className="hidden md:block absolute left-8 top-24 bottom-0 w-0.5 bg-border -mb-16" />
+                  <div className="hidden md:block absolute left-8 top-24 bottom-0 w-0.5 bg-border -mb-16 -z-10" />
                 )}
                 
                 <div className="grid md:grid-cols-12 gap-8">
                   {/* Year Badge */}
-                  <div className="md:col-span-2">
+                  <div className="md:col-span-2 relative z-10">
                     <div className="sticky top-24">
                       <div className="inline-flex items-center gap-3">
-                        <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center">
+                        <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center bg-background">
                           <project.icon className="w-8 h-8 text-primary" />
                         </div>
                       </div>
-                      <div className="mt-4">
+                      <div className="mt-4 bg-background">
                         <div className="font-display text-xl font-bold">{project.year}</div>
                         <div className={`text-sm font-medium ${
                           project.status === 'In Progress' ? 'text-primary' : 'text-muted-foreground'
