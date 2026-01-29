@@ -100,7 +100,7 @@ const Join = () => {
               <Button 
                 size="lg" 
                 variant="outline"
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+                className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20"
                 asChild
               >
                 <a href="mailto:usst@usask.ca">
@@ -268,7 +268,7 @@ const Join = () => {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+              className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20"
               asChild
             >
               <a href="mailto:usst@usask.ca">
