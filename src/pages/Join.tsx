@@ -103,7 +103,7 @@ const Join = () => {
                 className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20"
                 asChild
               >
-                <a href="mailto:usst@usask.ca">
+                <a href="mailto:president@usst.ca">
                   <Mail className="mr-2 w-5 h-5" />
                   Email Us
                 </a>
@@ -271,7 +271,7 @@ const Join = () => {
               className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20"
               asChild
             >
-              <a href="mailto:usst@usask.ca">
+              <a href="mailto:president@usst.ca">
                 Contact Us
               </a>
             </Button>

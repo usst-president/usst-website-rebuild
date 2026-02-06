@@ -113,7 +113,7 @@ const Sponsors = () => {
                 startups across Canada and beyond. Your partnership helps build that pipeline of talent.
               </p>
               <Button size="lg" className="group" asChild>
-                <a href="mailto:usst@usask.ca">
+                <a href="mailto:president@usst.ca">
                   Become a Sponsor
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -215,7 +215,7 @@ const Sponsors = () => {
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             asChild
           >
-            <a href="mailto:usst@usask.ca">
+            <a href="mailto:president@usst.ca">
               Contact Our Sponsorship Team
             </a>
           </Button>

@@ -5,33 +5,38 @@ import Layout from '@/components/Layout';
 
 const timeline = [
   {
-    year: '2015',
-    title: 'USST Founded',
-    description: 'A small group of engineering students started with a dream to build rockets.',
+    year: '2004',
+    title: 'Origin',
+    description: 'Formed in 2005 The University of Saskatchewan Space Design Team (USST) is a student group dedicated to the development of next generation space technologies.',
+  },
+  {
+    year: '2005 - 2010',
+    title: 'Space Elevator Era',
+    description: 'The team placed 1st for three consecutive years in 2005, 2006, and 2007, 3rd in 2009, and set world records for “Most Power Wirelessly Beamed” and “Fastest Power Beamed Climb”. In 2010, the team compoeted in the Annual Japan Space Elevator Technology and Engineering Competition, and set the record for the fastest climb with the battery powered climber, which had a power-to-weight ratio greater than a Formula 1 race car.',
+  },
+  {
+    year: '2012 - 2014',
+    title: 'Start of the NanoSat Era',
+    description: 'In 2012 the USST started designing a nanosatellite for the Canadian Satellite Design Challenge. The team placed 3rd in the critical design review. Our mission was a scientific payload to study the total electron content of the atmosphere. The approach was endorsed by a senior researcher from the United Sates Naval Research Laboratory.',
+  },
+  {
+    year: '2014 - 2018',
+    title: 'High Altitude Balloon',
+    description: 'The High Altitude Balloon Project, known as “the HAB” among team members is also another project undertaken by team members while working on the rover. it was used to collect images, video, environmental data and serve as a platform for scientific experiments.',
   },
   {
     year: '2017',
-    title: 'First Successful Launch',
-    description: 'Rocket I achieved flight, marking our first major engineering milestone.',
+    title: 'Project Starfox',
+    description: 'In 2017 we were one of four out of 29 teams to be selected for the Can-RGX Design Challenge that was organized by SEDS Canada (Students for the Exploration and Development of Space). Our experiment, STARFOX (Spinning Terrestrial Analog Regolith Filtering Operation eXperiment) was created to test the adaptability of standard mineral screening and filtering methods in micro-gravity.',
   },
   {
-    year: '2019',
-    title: 'Expanded to New Domains',
-    description: 'Added rover development and space elevator research to our portfolio.',
+    year: '2014 - 2018',
+    title: 'MARS ROVER ERA',
+    description: 'Following the completion of the first ever Canadian Satellite Design Challenge the USST moved into a new area of space technology, the design and construction of rovers. The team’s most recent competition was the 2018 Canadian International Rover Challenge, held in Drumheller, Alberta. The team was excited to place 5th worldwide! This accomplishment adds to the previous awards that the USST Mars Rover has received, including 1st worldwide at the European Rover Challenge in 2015 and 1st Canadian Team at the University Rover Challenge in 2014 and 2015. ',
   },
   {
-    year: '2022',
-    title: 'Microgravity Research',
-    description: 'Conducted our first reduced gravity experiment on a parabolic flight.',
-  },
-  {
-    year: '2023',
-    title: 'CubeSat Program Launch',
-    description: 'Began development of our first satellite mission.',
-  },
-  {
-    year: '2024',
-    title: 'Growing Strong',
+    year: '2020',
+    title: 'RADSAT-SK Begins',
     description: '100+ members across multiple disciplines working on CubeSat II and Rocket III.',
   },
 ];

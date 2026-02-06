@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
 import StarfieldBackground from '@/components/StarfieldBackground';
 import TypewriterText from '@/components/TypewriterText';
-import cubesatImage from '@/assets/cubesat-project.jpg';
+import cubesatImage from '@/assets/RADSAT-SK-Render6.jpg';
 import rocketImage from '@/assets/rocket-project.jpg';
 
 const typewriterWords = [
@@ -26,13 +26,13 @@ const stats = [
 const highlights = [
   {
     icon: Satellite,
-    title: 'CubeSat Program',
-    description: 'Currently developing our second CubeSat mission, gaining hands-on experience in satellite design and space systems.',
+    title: 'CUBICS Cube Satelites',
+    description: 'CUBICS is a Canadian Space Agency initiaitve that provide opportunities for post secondary students to engange in end-to-end space missions.',
   },
   {
     icon: Rocket,
     title: 'Rocket Development',
-    description: 'Upgrading our third rocket with advanced avionics and groundbreaking aerostructure, competing at national-level competitions.',
+    description: 'Starting in 2023, we have launched a total of 3 high power rockets at the Canadian Rocketry competition, Launch Canada.',
   },
   {
     icon: Sparkles,
