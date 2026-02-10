@@ -112,14 +112,14 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {/* CubeSat Card */}
             <div className="group relative bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-video overflow-hidden">
                 <img 
                   src={cubesatImage} 
                   alt="CubeSat Project" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-card/90 via-card/40 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <div className="inline-flex items-center gap-2 bg-primary/90 text-primary-foreground px-3 py-1 rounded-full text-xs font-medium mb-3">
                   <Satellite className="w-3 h-3" />
@@ -133,15 +133,15 @@ const Index = () => {
             </div>
 
             {/* Rocket Card */}
-            <div className="group relative bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-2 lg:mt-12">
-              <div className="aspect-[4/3] overflow-hidden">
+            <div className="group relative bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
+              <div className="aspect-video overflow-hidden">
                 <img 
                   src={rocketImage} 
                   alt="Rocket Project" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-card/90 via-card/40 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <div className="inline-flex items-center gap-2 bg-primary/90 text-primary-foreground px-3 py-1 rounded-full text-xs font-medium mb-3">
                   <Rocket className="w-3 h-3" />
