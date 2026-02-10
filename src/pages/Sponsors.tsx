@@ -175,11 +175,11 @@ const Sponsors = () => {
                   {tier.name} Sponsors
                 </h3>
                 <p className="text-muted-foreground text-sm text-center mb-6">{tier.description}</p>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+                <div className="flex flex-wrap justify-center gap-4">
                   {tier.sponsors.map((sponsor, sIndex) => (
                     <div 
                       key={sIndex}
-                      className="bg-muted rounded-xl p-8 flex items-center justify-center min-h-[120px] border border-border"
+                      className="w-[calc(33.333%-1rem)] min-w-[200px] bg-muted rounded-xl p-8 flex items-center justify-center min-h-[120px] border border-border"
                     >
                       {sponsor.logo ? (
                         <img src={sponsor.logo} alt={sponsor.name} className="max-h-16" />
