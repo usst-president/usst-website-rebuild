@@ -175,7 +175,7 @@ const Sponsors = () => {
                   {tier.name} Sponsors
                 </h3>
                 <p className="text-muted-foreground text-sm text-center mb-6">{tier.description}</p>
-                <div className="flex flex-wrap justify-center gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
                   {tier.sponsors.map((sponsor, sIndex) => (
                     <div 
                       key={sIndex}
