@@ -165,7 +165,7 @@ const Join = () => {
                   key={index}
                   className="bg-card rounded-2xl p-6 border border-border relative overflow-hidden group hover:border-primary/30 transition-colors"
                 >
-                  <div className="absolute -top-4 -right-4 text-8xl font-display font-bold text-muted opacity-50 group-hover:text-primary/20 transition-colors">
+                  <div className="absolute top-2 right-4 text-6xl font-display font-bold text-muted opacity-50 group-hover:text-primary/20 transition-colors">
                     {step.number}
                   </div>
                   <div className="relative">
