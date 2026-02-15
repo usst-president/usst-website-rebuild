@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Rocket } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import ThemeToggle from '@/components/ThemeToggle';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -47,8 +48,9 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden lg:block">
+          {/* CTA Button & Theme Toggle */}
+          <div className="hidden lg:flex items-center gap-2">
+            <ThemeToggle />
             <Link to="/join">
               <Button className="btn-primary-glow">
                 Get Involved
@@ -84,11 +86,14 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <Link to="/join" onClick={() => setIsOpen(false)}>
-                <Button className="w-full mt-2 btn-primary-glow">
-                  Get Involved
-                </Button>
-              </Link>
+              <div className="flex items-center gap-2 mt-2">
+                <ThemeToggle />
+                <Link to="/join" onClick={() => setIsOpen(false)} className="flex-1">
+                  <Button className="w-full btn-primary-glow">
+                    Get Involved
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         )}
