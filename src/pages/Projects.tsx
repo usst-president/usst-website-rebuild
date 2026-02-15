@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Rocket, Satellite, Globe, FlaskConical } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
-import cubesatImage from '@/assets/cubesat-project.jpg';
-import rocketImage from '@/assets/rocket-project.jpg';
+import cubesatImage from '@/assets/projects-pictures/radsat-sk.jpg';
+import rocketImage from '@/assets/projects-pictures/rocket-project.jpg';
 
 const projects = [
   {

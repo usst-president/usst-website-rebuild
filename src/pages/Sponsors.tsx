@@ -2,13 +2,13 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Heart, Mail, Building2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
-import calianLogo from '@/assets/Calian Logo.png';
-import kgsLogo from '@/assets/KGS Logo.png';
-import mdaLogo from '@/assets/MDA Logo.png';
-import meaLogo from '@/assets/MEA Logo.png';
-import makerspaceLogo from '@/assets/Makerspace Logo.png';
-import usaskEngLogo from '@/assets/Usask Eng Logo.png';
-import vecimaLogo from '@/assets/Vecima Logo.png';
+import calianLogo from '@/assets/sponsors/Calian Logo.png';
+import kgsLogo from '@/assets/sponsors/KGS Logo.png';
+import mdaLogo from '@/assets/sponsors/MDA Logo.png';
+import meaLogo from '@/assets/sponsors/MEA Logo.png';
+import makerspaceLogo from '@/assets/sponsors/Makerspace Logo.png';
+import usaskEngLogo from '@/assets/sponsors/Usask Eng Logo.png';
+import vecimaLogo from '@/assets/sponsors/Vecima Logo.png';
 
 
 const sponsorTiers = [

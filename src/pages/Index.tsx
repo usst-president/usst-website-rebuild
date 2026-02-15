@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
 import StarfieldBackground from '@/components/StarfieldBackground';
 import TypewriterText from '@/components/TypewriterText';
-import cubesatImage from '@/assets/RADSAT-SK-Render6.jpg';
-import rocketImage from '@/assets/rocket-project.jpg';
+import cubesatImage from '@/assets/projects-pictures/cubesat-project.jpg';
+import rocketImage from '@/assets/projects-pictures/rocket-project.jpg';
 
 const typewriterWords = [
   'exploration',
